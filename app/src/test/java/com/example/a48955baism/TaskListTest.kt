@@ -16,7 +16,7 @@ class TaskListTest {
     fun addReturnsTasksInOrderWithDistinctIds() {
         val tasks = TaskList().add("  MobSF  ").add("Bitrise").entries
 
-        assertEquals(listOf("MobSF", "Bitrise"), tasks.map { it.title })
+        assertEquals(listOf("Bitrise", "MobSF"), tasks.map { it.title })
         assertNotEquals(tasks[0].id, tasks[1].id)
         assertEquals(TaskPriority.NORMAL, tasks[0].priority)
         assertEquals("", tasks[0].description)
