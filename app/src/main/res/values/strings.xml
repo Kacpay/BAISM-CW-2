@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lista zadań</string>
+    <string name="add_task">Dodaj zadanie</string>
+    <string name="no_tasks">Brak zadań</string>
+    <string name="edit_task">Edytuj</string>
+    <string name="delete_task">Usuń</string>
+    <string name="delete_task_title">Usunąć zadanie?</string>
+    <string name="task_title">Nazwa zadania</string>
+    <string name="task_description">Opis (opcjonalnie)</string>
+    <string name="task_priority">Priorytet</string>
+    <string name="priority_low">Niski</string>
+    <string name="priority_normal">Normalny</string>
+    <string name="priority_high">Wysoki</string>
+    <string name="task_priority_value">Priorytet: %1$s</string>
+    <string name="task_completed">Ukończone</string>
+    <string name="save_task">Zapisz</string>
+    <string name="cancel">Anuluj</string>
+</resources>
